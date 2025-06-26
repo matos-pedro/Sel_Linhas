@@ -6,8 +6,8 @@ from spec_utils import analisar_sigma_T
 from matplotlib.colors import LogNorm
 
 st.set_page_config(layout='wide')
-st.title("Análise de σ(T) com Perturbações nas Intensidades Espectrais")
-
+st.title("Seleção de Linhas") 
+st.header("Análise de Temperatura via Perturbações nas Intensidades de Linha")
 # === Sidebar: parâmetros de entrada ===
 st.sidebar.title("⚙️ Parâmetros de Entrada")
 
