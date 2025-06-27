@@ -116,11 +116,14 @@ with aba_explicacao:
     st.markdown("""
     #### Estimativas Espectroscópicas da Água usando o HITRAN
 
-    Este documento descreve três procedimentos importantes para espectroscopia baseada na base de dados HITRAN:
+    Este código realiza uma análise espectroscópica baseada na base de dados HITRAN, com o objetivo de avaliar a incerteza na 
+    estimativa da temperatura a partir de pares de linhas espectrais afetadas por ruído experimental simulado.
+                
+    Abaixo são explicados os seguintes tópicos:
 
-    1. Como estimar a força de linha $S(T)$ a uma temperatura arbitrária,  
-    2. Como estimar a temperatura a partir da razão entre duas linhas espectrais e
-    3. Como o código funciona. 
+    1. como estimar a força de linha $S(T)$ a uma temperatura arbitrária,  
+    2. como estimar a temperatura a partir da razão entre duas linhas espectrais e
+    3. como o código funciona. 
 
     ---
 
