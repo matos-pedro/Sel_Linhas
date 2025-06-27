@@ -226,9 +226,12 @@ with aba_explicacao:
      
      ---
 
-    ## 5. Considerações Finais
+    ## Considerações Finais
 
-    - As intensidades medidas experimentalmente são convoluções do perfil de linha e da força da linha, afetadas por muitos fatores ambientais e instrumentais.  
-    - A base HITRAN fornece dados essenciais para simulações e análise espectral, mas a interpretação precisa depende de ajustes como este para temperatura e efeitos instrumentais.  
-    - A metodologia de estimar temperatura a partir de razões de linhas é amplamente usada em diagnósticos espectroscópicos, mas requer cautela com a seleção das linhas e a avaliação das incertezas.
+    - Aqui, foram desconsiderados os efeitos de alargamento e as linhas são, portanto, isoladas. Experimentalmente, as linhas são afetadas por muitos fatores ambientais e instrumentais.
+    - A incerteza na estimativa da temperatura é avaliada por meio de simulações com ruído gaussiano adicionado às intensidades espectrais, permitindo quantificar o impacto de flutuações experimentais sobre a robustez dos pares de linhas selecionados   
+    - A base HITRAN fornece dados essenciais para simulações e análise espectral.
+                
+    
+    
     """)
