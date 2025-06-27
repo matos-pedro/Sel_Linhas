@@ -179,7 +179,7 @@ with aba_explicacao:
     Em espectroscopia, a intensidade espectral observada $I(ν, T)$ resulta da atenuação da radiação ao longo de um meio absorvedor, conforme a Lei de Beer-Lambert:
 
     $$ 
-    I(v) = I_0(v) \cdot \exp\left[- a(v) \cdot L\right]
+    I(v) = I_0(v) \cdot \exp\left[- a(v) . L\right]
     $$
 
     onde:
