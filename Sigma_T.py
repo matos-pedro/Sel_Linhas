@@ -235,5 +235,5 @@ with aba_explicacao:
     ### Referência
     
     GRIFFITHS, A. D. Development and Demonstration of a Diode Laser Sensor for a Scramjet Combustor. 2005. Tese de Doutorado. Thesis (Doctor of Philosophy)–The Australian Natonal University, Australia.
-    Disponível [aqui](https://www.researchgate.net/profile/Alan-Griffiths/publication/265320975_Development_and_demonstration_of_a_diode_laser_sensor_for_a_scramjet_combustor/links/58b35a2c92851cf7ae91d5d1/Development-and-demonstration-of-a-diode-laser-sensor-for-a-scramjet-combustor.pdf)
+    [Disponível aqui](https://www.researchgate.net/profile/Alan-Griffiths/publication/265320975_Development_and_demonstration_of_a_diode_laser_sensor_for_a_scramjet_combustor/links/58b35a2c92851cf7ae91d5d1/Development-and-demonstration-of-a-diode-laser-sensor-for-a-scramjet-combustor.pdf)
     """)
