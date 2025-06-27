@@ -179,7 +179,7 @@ with aba_explicacao:
     Em espectroscopia, a intensidade espectral observada $I(\\nu, T)$ resulta da atenuação da radiação ao longo de um meio absorvedor, conforme a Lei de Beer-Lambert:
 
     $$ 
-    I(\\nu) = I_0(v) \\cdot \\exp\\left[- \\alpha(\\nu) \\cdot L\\right]
+    I(\\nu) = I_0(\\nu) \\cdot \\exp\\left[- \\alpha(\\nu;T) \\cdot L\\right]
     $$
 
     onde:
@@ -190,7 +190,7 @@ with aba_explicacao:
     Esse coeficiente $a(v)$ representa a contribuição de todas as transições moleculares relevantes na vizinhança de $\\nu$, e é dado por:
 
     $$
-    \\alpha(\\nu) = \sum_{i} S_i(T) \cdot f_i(\\nu - \\nu_i)
+    \\alpha(\\nu;T) = \sum_{i} S_i(T) \cdot f_i(\\nu - \\nu_i)
     $$
 
     em que:
@@ -200,8 +200,10 @@ with aba_explicacao:
 
     Portanto, a absorção espectral é uma soma convolutiva de várias transições, cada uma com sua força e perfil.
 
-    A função $f_i(\\nu - \\nu_i)$ descreve como a absorção da linha $i$ se espalha ao redor de sua frequência central, considerando efeitos como Doppler (alargamento térmico) e pressão (alargamento colisional). 
-    Assim, a área sob cada curva $f_i$ é igual a 1, de modo que $S_i(T)$ determina a absorção total da linha. Já a intensidade $I(\\nu)$ reflete a contribuição simultânea de todas essas linhas sobrepostas.
+    A função $f_i(\\nu - \\nu_i)$ descreve como a absorção da linha $i$ se espalha ao redor de sua frequência central, considerando efeitos 
+    como Doppler (alargamento térmico) e pressão (alargamento colisional). Assim, a área sob cada curva $f_i$ é igual a 1, de modo que $S_i(T)$ 
+    determina a absorção total da linha. Já a intensidade $I(\\nu;T)$, medida experimentalmente, reflete a absorção induzida pela contribuição 
+    simultânea de um conjunto de linhas sobrepostas.
 
     ---
 
