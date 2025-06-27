@@ -176,19 +176,6 @@ with aba_explicacao:
 
     ##### 2.1 Calculando a Intensidade de Absorção
 
-    Em espectroscopia, a **intensidade espectral observada** $I(\nu, T)$ resulta da atenuação da radiação ao longo de um meio absorvedor, conforme a **Lei de Beer-Lambert**:
-
-    $$
-    I(\nu) = I_0(\nu) \cdot \exp\left[-\alpha(\nu) \cdot L\right]
-    $$
-
-    onde:
-    - $I_0(\nu)$ é a intensidade incidente,
-    - $L$ é o caminho óptico,
-    - $\alpha(\nu)$ é o **coeficiente de absorção espectral** (em cm⁻¹).
-
-    Esse coeficiente $\alpha(\nu)$ representa a contribuição **de todas as transições moleculares relevantes** na vizinhança de $\nu$, e é dado por:
-
 
 
 
