@@ -6,8 +6,8 @@ from spec_utils import analisar_sigma_T
 from matplotlib.colors import LogNorm
 
 st.set_page_config(layout='wide')
-st.title("Seleção de Linhas") 
-st.header("Análise de Temperatura via Perturbações nas Intensidades de Linha")
+st.header("Seleção de Linhas")  
+st.subheader("Análise de Temperatura via Perturbações nas Intensidades de Linha")
 # === Sidebar: parâmetros de entrada ===
 st.sidebar.title("⚙️ Parâmetros de Entrada")
 
@@ -114,7 +114,7 @@ with aba_saida:
 
 with aba_explicacao:
     st.markdown("""
-    ### Estimativas Espectroscópicas da Água usando o HITRAN
+    #### Estimativas Espectroscópicas da Água usando o HITRAN
 
     Este documento descreve três procedimentos importantes para espectroscopia baseada na base de dados HITRAN:
 
@@ -124,7 +124,7 @@ with aba_explicacao:
 
     ---
 
-    ## 1. Estimando a Força da Linha a uma Temperatura Arbitrária
+    ### 1. Estimando a Força da Linha a uma Temperatura Arbitrária
 
     A força de linha espectral $S(T)$ depende fortemente da temperatura. A base de dados HITRAN fornece essa força $S_{\\text{ref}}$ para uma temperatura de referência $T_{\\text{ref}} = 296\,\\text{K}$, mas para simulações em outras temperaturas, é necessário corrigi-la.
 
@@ -146,7 +146,7 @@ with aba_explicacao:
 
     ---
 
-    ## 2. Estimando a Temperatura a partir de Duas Linhas
+    ### 2. Estimando a Temperatura a partir de Duas Linhas
 
     A razão entre as intensidades de duas linhas espectrais pode ser usada para estimar a temperatura do meio, aproveitando que cada linha tem uma dependência diferente da temperatura devido às diferentes energias dos níveis inferiores.
 
@@ -177,7 +177,7 @@ with aba_explicacao:
 
 
 
-    #### 2.1 Calculando a Intensidade de Absorção
+    ##### 2.1 Calculando a Intensidade de Absorção
 
     Em condições reais, intensidade de absorção $I(\\nu, T)$ de uma linha espectral é proporcional à força da linha $S(T)$ e ao perfil espectral daquela linha:
 
@@ -197,7 +197,7 @@ with aba_explicacao:
 
     ---
 
-     ## 3. Seleção de Linhas e Estimativa da Incerteza na Temperatura
+     ### 3. Seleção de Linhas e Estimativa da Incerteza na Temperatura
 
      O código calcula uma matriz de desvio padrão $\sigma(T)$ para a temperatura estimada, simulando o impacto do ruído experimental nas intensidades de absorção das linhas espectrais.
 
@@ -213,7 +213,7 @@ with aba_explicacao:
 
      
 
-     ##### Explicação dos parâmetros de entrada
+     ###### Explicação dos parâmetros de entrada
 
      - **Temperatura Simulada T (K):** Temperatura real do sistema que se deseja estimar via espectroscopia.
      - **Região espectral 1 (nm):** Intervalo da primeira região espectral, onde serão selecionadas linhas para a análise.
@@ -226,7 +226,7 @@ with aba_explicacao:
      
      ---
 
-    ## Considerações Finais
+    ### Considerações Finais
 
     - Aqui, foram desconsiderados os efeitos de alargamento e as linhas são, portanto, isoladas. Experimentalmente, as linhas são afetadas por muitos fatores ambientais e instrumentais.
     - A incerteza na estimativa da temperatura é avaliada por meio de simulações com ruído gaussiano adicionado às intensidades espectrais, permitindo quantificar o impacto de flutuações experimentais sobre a robustez dos pares de linhas selecionados   
