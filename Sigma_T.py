@@ -232,7 +232,7 @@ with aba_explicacao:
      - **Região espectral 1 (nm):** Intervalo da primeira região espectral, onde serão selecionadas linhas para a análise.
      - **Região espectral 2 (nm):** Intervalo da segunda região espectral para seleção de linhas.
      - **Número de Linhas mais Intensas, NL:** Quantidade de linhas mais fortes a serem consideradas em cada região para formar os pares.
-     - **Número de Perturbações, K:** Quantidade de amostras de ruído geradas para simular a incerteza nas intensidades.
+     - **Número de Perturbações, NP:** Quantidade de amostras de ruído geradas para simular a incerteza nas intensidades.
      - **Erro relativo nas intensidades, ER:** Porcentagem do maior valor de intensidade usada para definir o desvio padrão do ruído gaussiano aplicado às intensidades.
 
      Esses parâmetros permitem ajustar a análise para o caso experimental, controlando a quantidade de linhas consideradas, o nível de ruído simulado e as regiões espectrais de interesse.
