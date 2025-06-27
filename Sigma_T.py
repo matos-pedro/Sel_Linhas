@@ -198,7 +198,7 @@ with aba_explicacao:
     - $v_i$ é a frequência central da linha $i$,
     - $f_i(\\nu - \\nu_i)$ é o perfil espectral (normalizado) centrado em $\\nu_i$, como Voigt, Lorentziano ou Gaussiano.
 
-    Portanto, a absorção espectral é uma soma convolutiva de várias transições, cada uma com sua força e perfil.
+    Em condições reais, portanto, a absorção espectral é uma soma convolutiva de várias transições, cada uma com sua força e perfil.
 
     A função $f_i(\\nu - \\nu_i)$ descreve como a absorção da linha $i$ se espalha ao redor de sua frequência central, considerando efeitos 
     como Doppler (alargamento térmico) e pressão (alargamento colisional). Assim, a área sob cada curva $f_i$ é igual a 1, de modo que $S_i(T)$ 
