@@ -116,7 +116,7 @@ with aba_explicacao:
     st.markdown("""
     #### Estimativas Espectroscópicas da Água usando o HITRAN
 
-    Este código realiza uma análise espectroscópica baseada na base de dados HITRAN, com o objetivo de avaliar a incerteza na 
+    Este código realiza uma análise espectroscópica, baseada na base de dados HITRAN, com o objetivo de avaliar a incerteza na 
     estimativa da temperatura a partir de pares de linhas espectrais afetadas por ruído experimental simulado.
                 
     Abaixo são explicados os seguintes tópicos:
