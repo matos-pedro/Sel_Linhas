@@ -179,24 +179,24 @@ with aba_explicacao:
     Em espectroscopia, a intensidade espectral observada $I(ν, T)$ resulta da atenuação da radiação ao longo de um meio absorvedor, conforme a Lei de Beer-Lambert:
 
     $$ 
-    I(ν) = I_0(ν) \cdot \exp\left[-\alpha(ν) \cdot L\right]
+    I(v) = I_0(v) \cdot \exp\left[- a(v) \cdot L\right]
     $$
 
     onde:
-    - $I_0(ν)$ é a intensidade incidente,
+    - $I_0(v)$ é a intensidade incidente,
     - $L$ é o caminho óptico,
-    - $\alpha(ν)$ é o coeficiente de absorção espectral (em cm⁻¹).
+    - $\alpha(v)$ é o coeficiente de absorção espectral (em cm⁻¹).
 
-    Esse coeficiente $\alpha(ν)$ representa a contribuição de todas as transições moleculares relevantes na vizinhança de $ν$, e é dado por:
+    Esse coeficiente $a(v)$ representa a contribuição de todas as transições moleculares relevantes na vizinhança de $v$, e é dado por:
 
     $$
-    \alpha(ν) = \sum_{i} S_i(T) \cdot f_i(ν - ν_i)
+    a(v) = \sum_{i} S_i(T) \cdot f_i(v - v_i)
     $$
 
     em que:
     - $S_i(T)$ é a força da linha $i$ corrigida para a temperatura,
-    - $ν_i$ é a frequência central da linha $i$,
-    - $f_i(ν - ν_i)$ é o perfil espectral (normalizado) centrado em $ν_i$, como Voigt, Lorentziano ou Gaussiano.
+    - $v_i$ é a frequência central da linha $i$,
+    - $f_i(v - v_i)$ é o perfil espectral (normalizado) centrado em $v_i$, como Voigt, Lorentziano ou Gaussiano.
 
     Portanto, a absorção espectral é uma soma convolutiva de várias transições, cada uma com sua força e perfil.
 
