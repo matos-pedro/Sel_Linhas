@@ -218,9 +218,9 @@ with aba_explicacao:
 
      Para cada par de linhas:
 
-     - A intensidade de cada linha é perturbada diversas vezes com ruído gaussiano, cuja amplitude é proporcional ao maior valor de intensidade encontrado entre todas as linhas das duas regiões, multiplicado pelo erro relativo definido pelo usuário.
+     - A intensidade de cada linha é perturbada NP vezes com ruído gaussiano, cuja amplitude é proporcional ao maior valor de intensidade encontrado entre todas as linhas das duas regiões, multiplicado pelo erro relativo ER definido pelo usuário.
      - A temperatura é estimada para cada par perturbado, utilizando o método iterativo baseado na razão das intensidades.
-     - Calcula-se o desvio padrão das temperaturas estimadas em relação à temperatura simulada original, resultando na incerteza $\sigma(T)$ para aquele par.
+     - Calcula-se o desvio padrão das temperaturas estimadas em relação à temperatura simulada original T, resultando na incerteza $\sigma(T)$ para aquele par.
 
      A matriz resultante de $\sigma(T)$ é apresentada em um gráfico de calor, onde cores mais claras indicam pares de linhas que proporcionam estimativas de temperatura mais estáveis e confiáveis (menor incerteza). Isso ajuda a selecionar os pares de linhas mais robustos para diagnósticos espectroscópicos e para determinar a temperatura com maior precisão.
 
