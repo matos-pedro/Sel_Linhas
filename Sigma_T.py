@@ -178,9 +178,7 @@ with aba_explicacao:
 
         Em espectroscopia, a **intensidade espectral observada** $I(\nu, T)$ resulta da atenuação da radiação ao longo de um meio absorvedor, conforme a **Lei de Beer-Lambert**:
 
-        $$
-        I(\nu) = I_0(\nu) \cdot \exp\left[-\alpha(\nu) \cdot L\right]
-        $$
+       
 
 
     ---
