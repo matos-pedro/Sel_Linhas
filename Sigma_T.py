@@ -200,12 +200,8 @@ with aba_explicacao:
 
     Portanto, a absorção espectral é uma soma convolutiva de várias transições, cada uma com sua força e perfil.
 
-    ---
-
-    Observações:
-    - A função $f_i(\\nu - \\nu_i)$ descreve como a absorção da linha $i$ se espalha ao redor de sua frequência central, considerando efeitos como Doppler (alargamento térmico) e pressão (alargamento colisional).
-    - A área sob cada curva $f_i$ é igual a 1, de modo que $S_i(T)$ determina a absorção total da linha.
-    - A intensidade $I(\\nu)$ que é medida no espectrômetro reflete a contribuição simultânea de todas essas linhas sobrepostas.
+    A função $f_i(\\nu - \\nu_i)$ descreve como a absorção da linha $i$ se espalha ao redor de sua frequência central, considerando efeitos como Doppler (alargamento térmico) e pressão (alargamento colisional). 
+    Assim, a área sob cada curva $f_i$ é igual a 1, de modo que $S_i(T)$ determina a absorção total da linha. Já a intensidade $I(\\nu)$ reflete a contribuição simultânea de todas essas linhas sobrepostas.
 
     ---
 
