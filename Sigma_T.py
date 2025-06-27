@@ -177,35 +177,6 @@ with aba_explicacao:
 
 
 
-    ##### 2.1 Calculando a Intensidade de Absorção
-
-    Em espectroscopia, a **intensidade espectral observada** $I(\nu, T)$ resulta da atenuação da radiação ao longo de um meio absorvedor, conforme a **Lei de Beer-Lambert**:
-
-    $$
-    I(\nu) = I_0(\nu) \cdot \exp\left[-\alpha(\nu) \cdot L\right]
-    $$
-
-    onde:
-    - $I_0(\nu)$ é a intensidade incidente,
-    - $L$ é o caminho óptico,
-    - $\alpha(\nu)$ é o **coeficiente de absorção espectral** (em cm⁻¹).
-
-    Esse coeficiente $\alpha(\nu)$ representa a contribuição **de todas as transições moleculares relevantes** na vizinhança de $\nu$, e é dado por:
-
-    $$
-    \alpha(\nu) = \sum_{i} S_i(T) \cdot f_i(\nu - \nu_i)
-    $$
-
-    em que:
-    - $S_i(T)$ é a **força da linha $i$** corrigida para a temperatura,
-    - $\nu_i$ é a frequência central da linha $i$,
-    - $f_i(\nu - \nu_i)$ é o perfil espectral (normalizado) centrado em $\nu_i$, como Voigt, Lorentziano ou Gaussiano.
-
-    Portanto, a absorção espectral é uma **soma convolutiva** de várias transições, cada uma com sua força e perfil.
-
-    - A função $f_i(\nu - \nu_i)$ descreve como a absorção da linha $i$ se espalha ao redor de sua frequência central, considerando efeitos como **Doppler** (alargamento térmico) e **pressão** (alargamento colisional).
-    - A **área sob cada curva $f_i$** é igual a 1, de modo que $S_i(T)$ determina a absorção total da linha.
-    - A intensidade $I(\nu)$ que é medida no espectrômetro reflete a contribuição simultânea de todas essas linhas sobrepostas.
 
     ---
 
