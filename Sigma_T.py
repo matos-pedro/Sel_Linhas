@@ -176,10 +176,10 @@ with aba_explicacao:
 
     ##### 2.1 Calculando a Intensidade de Absorção
 
-    Em espectroscopia, a intensidade espectral observada $I(ν, T)$ resulta da atenuação da radiação ao longo de um meio absorvedor, conforme a Lei de Beer-Lambert:
+    Em espectroscopia, a intensidade espectral observada $I(v, T)$ resulta da atenuação da radiação ao longo de um meio absorvedor, conforme a Lei de Beer-Lambert:
 
     $$ 
-    I(v) = I_0(v) \cdot \exp\left[- a(v) . L\right]
+    I(v) = I_0(v) . \exp\left[- a(v) . L\right]
     $$
 
     onde:
