@@ -243,10 +243,12 @@ with aba_explicacao:
 
     - Aqui, foram desconsiderados os efeitos de alargamento e as linhas são, portanto, isoladas. Experimentalmente, as linhas são afetadas por muitos fatores ambientais e instrumentais.
     - A incerteza na estimativa da temperatura é avaliada por meio de simulações com ruído gaussiano adicionado às intensidades espectrais, permitindo quantificar o impacto de flutuações experimentais sobre a robustez dos pares de linhas selecionados   
-    - A base HITRAN fornece dados essenciais para simulações e análise espectral.
                 
-    ### Referência
+    ### Referências
     
     GRIFFITHS, A. D. Development and Demonstration of a Diode Laser Sensor for a Scramjet Combustor. 2005. Tese de Doutorado. Thesis (Doctor of Philosophy)–The Australian Natonal University, Australia.
     [Disponível aqui](https://www.researchgate.net/profile/Alan-Griffiths/publication/265320975_Development_and_demonstration_of_a_diode_laser_sensor_for_a_scramjet_combustor/links/58b35a2c92851cf7ae91d5d1/Development-and-demonstration-of-a-diode-laser-sensor-for-a-scramjet-combustor.pdf)
+    
+    Kochanov, R. V., Gordon, I. E., Rothman, L. S., Wcisło, P., Hill, C., & Wilzewski, J. S. (2016). HITRAN Application Programming Interface (HAPI): A comprehensive approach to working with spectroscopic data. Journal of Quantitative Spectroscopy and Radiative Transfer, 177, 15-30.
+                
     """)
