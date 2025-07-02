@@ -110,7 +110,7 @@ with aba_saida:
                     [{"selector": "th", "props": [("font-weight", "bold")]}]
                 ), use_container_width=True)
         else:
-            st.info("Use a barra lateral para configurar os parâmetros e clique em '🚀 Executar análise'.")
+            st.info("Use a barra lateral para configurar os parâmetros e clique em '🚀 Executar análise' ou clique na aba Teoria acima para mais explicações.")
 
 with aba_explicacao:
     st.markdown("""
